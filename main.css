@@ -1,0 +1,36 @@
+body, 
+html {
+    background-color: #fafafa;
+    height: 100vh;
+}
+
+
+h3{
+    text-align: center;
+    color:brown
+}
+
+.main-content{
+    display:flex;
+}
+
+.list{
+    flex: 3;
+    /*background-color: aqua;*/
+}
+
+.form{
+    flex:2;
+    /*background-color: cadetblue;*/
+}
+
+#iImportant{
+    font-size:32px;
+    cursor:pointer;
+    color:#666;
+}
+
+#iImportant.fas{
+    color:red;
+}
+
